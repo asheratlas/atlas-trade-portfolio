@@ -41,27 +41,21 @@ TradeMaximizer Algorithm:
 
 The matching algorithm remains outside the hosted infrastructure by design — organizers download a want-list file, run TradeMaximizer on their laptop (one command, sub-second execution), then upload the results back to the platform.
 
-## Current Status
+## Where it is
 
-The first live pilot has completed. The product is now being updated based on feedback from that pilot before the next trade runs. An external organizer has joined as a design partner and is preparing to use the platform for future trades — this begins to broaden product input beyond its builder, but multi-community generalization remains unproven.
+Two NYC trades have run on it, Spring and Summer 2026. Organizers in Chicago, running a trade of about 1,600 items, have seen it and named what would make them switch. They have not switched. Convention scale is untested. The matcher still runs on the organizer's laptop, on purpose.
 
-Only one live pilot has completed to date. Convention-scale and multi-community operation are not yet validated.
+## What the live trades changed
 
-## First Live Pilot and Validation Evidence
+I started by replacing three screens: a wall of text, a grid people called Battleship, and a Submit button half of them never found.
 
-### First live pilot (completed)
+Using it split the work apart. Browse is for finding a game. My Wants is for deciding what you'd give up. Veterans still wanted to see the whole list at once, so Coverage is a second view of the same wants, easy to ignore. A newcomer gets the path. Someone who has used the old tool gets a few more controls, and only after they say so. The organizer is not an advanced participant. They publish results, mail the group, and open a leftovers round. Participants never see that, and want lists stay hidden until a result is final.
 
-| Metric | Value | Context |
-|--------|-------|---------|
-| Participants | ~40 | First live pilot |
-| Items catalogued | 732 | First live pilot |
-| Frontend pages | 7 | Implementation scope |
-| Database tables | 10 | Implementation scope |
-| Acceptance criteria tested | 60 | Pre-launch QA |
+In the Spring trade, 86% of people who listed an item ended up in a trade (30 of 35). The prior NYC trade on the old tool was 63% (26 of 41). Different rooms, different games. I would not call that the interface.
 
-The live pilot exercised the full participant flow — catalog browsing, per-game want assignment, and submission — with real participants and real items.
+After Summer, fourteen people answered a short survey, and I demoed it for the Chicago organizers the next day. I walked in wanting structured data for what a copy includes. What they reported was that they couldn't see it, and that buttons and labels looked the same. The change in progress keeps the lister's own words, shows two items on the row, and puts the rest one tap down. The next trade is what tells me if that was right.
 
-### Historical replay validation (distinct from live pilot)
+## Historical replay validation (distinct from the live trades)
 
 Export fidelity was validated separately by replaying a real historical trade file through the system — not synthetic data. This is distinct from the completed live pilot.
 

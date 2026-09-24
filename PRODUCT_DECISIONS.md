@@ -87,16 +87,12 @@ This document captures the key product decisions made during Atlas Trade develop
 
 ---
 
-## What Remains Unproven
+## Still open
 
-**Single completed pilot:** One live pilot has completed (~40 participants, 732 items). Multi-community generalization and convention-scale operation (500+ participants) remain untested. An external organizer has joined as a design partner and is preparing to use the platform for future trades — this begins to broaden product input beyond its builder, but does not yet validate multi-community operation.
+Spring and Summer 2026 both ran. What those trades did not prove:
 
-**Historical replay vs. live evidence:** Export fidelity was validated by replaying historical trade data (78/79 trade loops; both systems produced trades for the same 26 users). That replay evidence is distinct from the completed live pilot outcome.
-
-**Algorithm step:** TradeMaximizer execution is still organizer-run locally. Self-service algorithmic computation could eliminate this bottleneck but wasn't required for the first pilot.
-
-**Shipping trades:** Platform designed for no-ship (in-person) trades. Shipping logistics, participant verification, and dispute resolution processes weren't built or tested.
-
-**Post-pilot revisions:** The product is being updated from observed pilot feedback before the next trade runs. Whether those revisions hold under the next live event remains to be proven.
-
-These limitations were explicitly acknowledged and documented rather than rushed into scope.
+- The 732 items and 78 of 79 loops are a replay of an older trade file, not the result of either live NYC trade. Spring's live pool was 542 items submitted, 471 at match time.
+- The matcher is still run locally by the organizer. That was a choice, and it is still a bottleneck.
+- Shipping, disputes, and anything at convention size have not been built or tested.
+- Chicago has said what they need and has not run a trade on this.
+- The "what a copy comes with" row is the fix Summer pointed at. It is not in players' hands yet, so it is not a result.
