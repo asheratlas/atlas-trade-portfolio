@@ -4,14 +4,16 @@ This document describes the systematic validation of Atlas Trade against real pr
 
 ## Current Status
 
-The first live pilot has completed (~40 participants, 732 items). The product is now being updated based on feedback from that pilot before the next trade runs. An external organizer has joined as a design partner and is preparing to use the platform for future trades.
+Two NYC trades have run, Spring and Summer 2026. This document is the replay methodology. It is not the writeup of those live trades.
+
+Spring live trade: 542 items submitted, 471 at match time, 30 of 35 people who listed an item ended up in a trade. Summer ran after that. The 732 items belong to the historical replay below, not to either live trade.
 
 This document covers two distinct evidence types that must not be conflated:
 
-1. **Historical replay validation** — export fidelity tested by replaying a real historical trade file through the system (source of the 78/79 and 26-users-trading metrics)
-2. **First live pilot** — real participants used the platform end-to-end for want collection and submission (~40 participants, 732 items catalogued)
+1. **Historical replay validation** — export fidelity tested by replaying a real historical trade file through the system (source of the 732 items, the 78/79 loops, and the 26 users trading)
+2. **Live trades** — Spring and Summer 2026. Their outcome numbers are above. They are not inferred from the replay.
 
-The 78/79 figure is a historical replay result, not the live pilot outcome. The two evidence types are reported separately; no live-pilot outcome is inferred from the replay.
+The 78/79 figure is a historical replay result, not a live-trade outcome.
 
 ## Validation Approach
 
@@ -41,7 +43,7 @@ A validation script was written to cross-reference every trade in the Atlas-gene
 
 ## Historical Replay Results
 
-These metrics come from replaying historical trade data through the system — not from scoring the completed live pilot.
+These metrics come from replaying historical trade data through the system — not from the Spring or Summer live trades.
 
 | Metric | Value | Context |
 |--------|-------|---------|
@@ -95,15 +97,15 @@ The systematic comparison identified three categories of differences between Atl
 
 ## What This Does Not Validate
 
-**Live pilot as replay metric:** The 78/79 trade-loop figure is a historical replay result. It does not describe the completed live pilot's outcome.
+**Replay is not a live result:** The 78/79 trade-loop figure is a historical replay result. It does not describe Spring or Summer.
 
-**Multi-community generalization:** Historical replay used one community's trade data; the first live pilot ran in a single-community context. Different communities may have different usage patterns or edge cases. An external organizer has joined as a design partner and is preparing to use the platform for future trades — this begins to broaden product input beyond its builder, but multi-community generalization remains unproven.
+**Multi-community generalization:** The replay and both live trades are NYC. Chicago organizers have seen the product and named what would make them switch. They have not run a trade on it.
 
-**Convention-scale operation:** The largest live event was ~40 participants. Convention trades with 500+ participants and 5,000+ items remain unproven at this scale.
+**Convention-scale operation:** The largest live event so far is the NYC Spring trade: 46 signups, 471 items at match time. Convention trades with 500+ participants and 5,000+ items remain unproven.
 
 **Shipping trade logistics:** Validation focused on want-list generation and matching. Physical fulfillment, participant verification, and dispute resolution processes were not tested.
 
-**Post-pilot revisions:** The product is being updated from observed pilot feedback. Whether those changes hold under the next live event is not yet validated.
+**The Summer follow-up:** Summer ran. The row change that came out of that survey is not in players' hands as a measured result yet.
 
 **Long-term reliability:** Single-point-in-time validation doesn't prove system stability over extended operation periods.
 

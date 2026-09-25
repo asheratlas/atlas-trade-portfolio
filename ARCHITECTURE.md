@@ -62,7 +62,7 @@ The platform's job is generating compatible want-list files and parsing results 
 
 ## Scale Design  
 
-**Architecture horizon:** Validated at first-live-pilot scale (~40 participants, 732 items) but designed to scale to convention trades (~5,000+ items, 500+ participants) without architectural changes. Convention-scale operation remains unproven.
+**Architecture horizon:** The Spring live trade ran at 542 items submitted and 471 at match time. A separate historical replay used 732 items. The design targets convention trades (~5,000+ items, 500+ participants) without architectural changes. That scale remains unproven.
 
 **Server-side pagination + DOM windowing:** Browse catalog loads 100 items per page with intersection-observer triggers. TanStack Virtual renders only ~39 DOM nodes regardless of catalog size. Same architecture handles both pilot scale and convention scale.
 
